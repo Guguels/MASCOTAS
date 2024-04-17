@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Dentro de un Cuadro</title>
+    <style>
+        .formulario-container {
+            width: 1000px;
+            padding: 20px;
+            border: 2px solid #000;
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+        body {
+            background-color: lightblue;
+            color: #000000;
+        }
+        form {
+            text-align: left;
+        }
+        label {
+            margin-bottom: 5px;
+            display: inline-flex;
+            width: 100px; 
+            text-align: right;
+        }
+        input[type="text"],
+        input[type="radio"] {
+            margin-bottom: 10px;
+        }
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background-color: #333;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #000;
+        }
+        .icono {
+    width: 20px; 
+    height: auto; 
+    margin: 0 5px; 
+}
+    </style>
+</head>
+<body>
+    <div class="formulario-container">
+        <form>
+            <div style="text-align: center;">
+                <h2>FORMULARIO DE MASCOTA</h2>
+                <h1>PERDIDA</h1>
+             </div>
+            <label for="animal-name">Nombre:</label>
+            <input type="text" id="animal-name" name="animal-name">
+            <label>Especie:</label>
+            <label for="Perro">Perro:</label>
+            <input type="radio" id="Perro" name="especie" value="Perro">
+            <label for="Gato">Gato:</label>
+            <input type="radio" id="Gato" name="especie" value="Gato">
+            <label>Sexo:</label>
+            <label for="Perro">Macho:</label>
+            <input type="radio" id="Ma" name="sexo" value="Macho">
+            <label for="Gato">Hembra:</label>
+            <input type="radio" id="Hembra" name="Sexo" value="Hembra">
+            <br>
+            <label for="transferer-name">Raza:</label>
+            <input type="text" id="transferer-raza" name="transferer-raza">
+            <label for="transferer-name">Color:</label>
+            <input type="text" id="transferer-color" name="transferer-color">
+            <label for="transferer-name">Codigo de la mascota:</label>
+            <input type="text" id="transferer-color" name="transferer-color">
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div> 
+    <footer>
+        <p>Derechos Reservados &copy; 2024</p>
+        <a href="https://facebook.com"><img src="facebook.png" alt="Facebook" class="icono"></a>
+        <a href="https://twitter.com"><img src="twitter.png" alt="Twitter" class="icono"></a>
+        <a href="https://instagram.com"><img src="instagram.png" alt="Instagram" class="icono"></a>
+        <a href="https://telegram.com"><img src="telegram.png" alt="telegram" class="icono"></a>
+        <a href="https://whatsapp.com"><img src="whatsapp.png" alt="whatsapp" class="icono"></a>
+    </footer>     
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REGISTRO NACIONAL DE MASCOTAS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+    header {
+      background-color: #ffffff;
+      color: #000000;
+      padding: 15px;
+      display: flex; /* Utilizando flexbox para alinear elementos */
+      align-items: center; /* Alineando verticalmente */
+      justify-content: space-between; /* Distribuyendo el espacio entre los elementos */
+    }
+    h3 {
+      color: #160086;
+      text-align: left; /* Ajuste para centrar el texto */
+      margin: 0; /* Eliminando el margen superior e inferior */
+    }
+    nav {
+      background-color: #ffffff;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: right; /* Ajuste para centrar los enlaces */
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #000000;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    .button-container {
+      text-align: center;
+    }
+    button {
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: orange;
+      color: white;
+      padding: 15px 30px; /* Aumentando el padding */
+      border: none;
+      border-radius: 10px; /* Aumentando el radio del borde */
+      width: 280px;
+      height: 60px; /* Aumentando la altura del botón */
+      cursor: pointer;
+      font-size: 20px; /* Aumentando el tamaño del texto */
+    }
+
+    button + button {
+      margin-top: 10px;
+    }
+
+    footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #000;
+        }
+        .icono {
+    width: 20px; 
+    height: auto; 
+    margin: 0 5px; 
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h3>Registro Nacional de Tenencia Responsable<br />
+      de Mascotas y Animales de Compañía</h3>
+    <nav>
+      <ul>
+        <li><a href="pagina_inicio.html">Inicio</a></li>
+        <li><a href="Requisitos.html">Requisitos</a></li>
+        <li><a href="preguntas.html">Preguntas Frecuentes</a></li>
+        <li><a href="consultas.html">Consultas Animales Extraviados</a></li>
+        <li><a href="solicitudes.html">Mis Solicitudes</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div style="position: relative;"> 
+    <img src="Perro.jpg" alt="Imagen con texto">
+    <div style="position: absolute; top: 50px; left: 120px; color: white; text-align: left;"> 
+      <div style="text-align: center;"><h1>Registro Nacional</h1></div>
+      <h4>DE MASCOTAS O ANIMALES DE COMPAÑÍA</h4>
+      <hr style="align-content:left;" size="2" width="300px" color="#ffffff">
+      <div class="button-container">
+        <button><a href="">Ingresar con clave única</a></button>
+        <button><a href="Celula.html">Ingrese con cédula de identidad</a></button>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <p>Derechos Reservados &copy; 2024</p>
+    <a href="https://facebook.com"><img src="facebook.png" alt="Facebook" class="icono"></a>
+    <a href="https://twitter.com"><img src="twitter.png" alt="Twitter" class="icono"></a>
+    <a href="https://instagram.com"><img src="instagram.png" alt="Instagram" class="icono"></a>
+    <a href="https://telegram.com"><img src="telegram.png" alt="telegram" class="icono"></a>
+    <a href="https://whatsapp.com"><img src="whatsapp.png" alt="whatsapp" class="icono"></a>
+</footer>  
+</body>
+</html>

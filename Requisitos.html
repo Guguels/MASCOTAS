@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REQUISITOS</title>
+    <style>
+        .formulario-container {
+            width: 1000px;
+            padding: 20px;
+            border: 2px solid #000;
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+        body {
+            background-color: lightblue;
+            color: #000000;
+        }
+        form {
+            text-align: left;
+        }
+        label {
+            margin-bottom: 5px;
+            display: inline-flexbox;
+            width: 100px; 
+            text-align: right;
+        }
+        input[type="text"],
+        input[type="radio"] {
+            margin-bottom: 10px;
+        }
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background-color: #333;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #000;
+        }
+        .icono {
+    width: 20px; 
+    height: auto; 
+    margin: 0 5px; 
+}
+    </style>
+</head>
+
+<body>
+    <div class="formulario-container">
+      <form>
+        <div style="text-align: center;">
+          <h2>FORMULARIO DE TRANSFERENCIA</h2>
+          <h1>ANIMAL DE COMPAÑÍA</h1>
+       </div>
+        <div style="text-align: center;">
+           <h3>DATOS DEL ANIMAL</h3>
+        </div>
+          <label for="animal-name">Nombre:</label>
+          <input type="text" id="animal-name" name="animal-name">
+          <label for="Especie">Especie:</label>
+          <label for="Perro">Perro:</label>
+          <input type="radio" id="Perro" name="especie" value="Perro">
+          <label for="Gato">Gato:</label>
+          <input type="radio" id="Gato" name="especie" value="Gato">
+          <label for="Sexo">Sexo:</label>
+          <label for="Perro">Macho:</label>
+          <input type="radio" id="Ma" name="sexo" value="Macho">
+          <label for="Gato">Hembra:</label>
+          <input type="radio" id="Hembra" name="Sexo" value="Hembra">
+          <br>
+          <label for="transferer-name">Raza:</label>
+          <input type="text" id="transferer-raza" name="transferer-raza">
+          <label for="transferer-name">Color:</label>
+          <input type="text" id="transferer-color" name="transferer-color">
+          <label for="Esterilizado">Esterilizado:</label>
+          <label for="Si">Si:</label>
+          <input type="radio" id="Si" name="Esterilizado" value="Si">
+          <label for="No">No:</label>
+          <input type="radio" id="No" name="Esterilizado" value="No">
+          <br>
+          <label for="transferer-año">FECHA DE NACIMIENTO(DD/MM/AAAA)</label>
+          <input type="text" id="transferer-año" name="transferer-año">
+          <br>
+          <label for="Modo">Modo de obtencion:</label>
+          <label for="Compra">Compra:</label>
+          <input type="radio" id="com" name="Modo" value="com">
+          <label for="Reubicacion">Reubicacion:</label>
+          <input type="radio" id="reu" name="Modo" value="reu">
+          <label for="Regalo">Regalo:</label>
+          <input type="radio" id="reg" name="Modo" value="reg">
+          <label for="Nacido">Nacido en Casa:</label>
+          <input type="radio" id="nac" name="Modo" value="nac">
+          <label for="Recogido">Recogido:</label>
+          <input type="radio" id="reco" name="modo" value="reco">
+          <br>
+          <label for="transferer-año">Otros antecedenres</label>
+          <input type="text" id="transferer-año" name="transferer-año">
+          <br>
+          <label for="Modo">Razon de Tenencia:</label>
+          <label for="Compra">Caza:</label>
+          <input type="radio" id="com" name="Modo" value="com">
+          <label for="Reubicacion">Reproduccion:</label>
+          <input type="radio" id="reu" name="Modo" value="reu">
+          <label for="Regalo">compañia:</label>
+          <input type="radio" id="reg" name="Modo" value="reg">
+          <label for="Nacido">seguridad:</label>
+          <input type="radio" id="nac" name="Modo" value="nac">
+          <label for="Recogido">deporte:</label>
+          <input type="radio" id="reco" name="modo" value="reco">
+          <label for="Compra">terapia:</label>
+          <input type="radio" id="com" name="Modo" value="com">
+          <label for="Reubicacion">Exposicion:</label>
+          <input type="radio" id="reu" name="Modo" value="reu">
+          <label for="Regalo">Asistencia:</label>
+          <input type="radio" id="reg" name="Modo" value="reg">
+          <label for="Nacido">Trabajo:</label>
+          <input type="radio" id="nac" name="Modo" value="nac">
+          <div style="text-align: center;">
+            <h3>DATOS DE QUIEN TRANSFIERE EL ANIMAL</h3>
+         </div>
+         <label for="Modo">Persona:</label>
+         <label for="Compra">Natural:</label>
+         <input type="radio" id="com" name="Modo" value="com">
+         <label for="Reubicacion">Juridica:</label>
+         <input type="radio" id="reu" name="Modo" value="reu">
+         <br>
+         <label for="animal-name">Nombre Completo:</label>
+         <input type="text" id="animal-name" name="animal-name">
+         <br>
+         <label for="animal-name">Rut:</label>
+         <input type="text" id="animal-name" name="animal-name">
+         <label for="animal-name">Domicilio:</label>
+         <input type="text" id="animal-name" name="animal-name">
+         <br>
+         <label for="animal-name">Comuna:</label>
+         <input type="text" id="animal-name" name="animal-name">
+         <label for="animal-name">Region:</label>
+         <input type="text" id="animal-name" name="animal-name">
+         <br>
+         <label for="animal-name">Telefono Fijo:</label>
+         <input type="text" id="animal-name" name="animal-name">
+         <label for="animal-name">Telefono Movil:</label>
+         <input type="text" id="animal-name" name="animal-name">
+         <br>
+         <label for="animal-name">Correo electronico:</label>
+         <input type="text" id="animal-name" name="animal-name">
+         <br>
+         <label for="Modo">Titulo:</label>
+         <label for="Compra">Oneroso:</label>
+         <input type="radio" id="com" name="Modo" value="com">
+         <label for="Reubicacion">Gratuito:</label>
+         <input type="radio" id="reu" name="Modo" value="reu">
+         <div style="text-align: center;">  
+          <h3>DATOS DE QUIEN ADQUIERE EL ANIMAL</h3>
+         </div>
+          <label for="Modo">Persona:</label>
+          <label for="Compra">Natural:</label>
+          <input type="radio" id="com" name="Modo" value="com">
+          <label for="Reubicacion">Juridica:</label>
+          <input type="radio" id="reu" name="Modo" value="reu">
+          <br>
+          <label for="animal-name">Nombre Completo:</label>
+          <input type="text" id="animal-name" name="animal-name">
+          <br>
+          <label for="animal-name">Rut:</label>
+          <input type="text" id="animal-name" name="animal-name">
+          <label for="animal-name">Domicilio:</label>
+          <input type="text" id="animal-name" name="animal-name">
+          <br>
+          <label for="animal-name">Comuna:</label>
+          <input type="text" id="animal-name" name="animal-name">
+          <label for="animal-name">Region:</label>
+          <input type="text" id="animal-name" name="animal-name">
+          <br>
+          <label for="animal-name">Telefono Fijo:</label>
+          <input type="text" id="animal-name" name="animal-name">
+          <label for="animal-name">Telefono Movil:</label>
+          <input type="text" id="animal-name" name="animal-name">
+          <br>
+          <label for="animal-name">Correo electronico:</label>
+          <input type="text" id="animal-name" name="animal-name">
+          <br>
+          <div style="align-items: center;">
+            <button type="submit">Enviar</button>
+          </div>
+          
+      </form>
+    </div> 
+    <footer>
+      <p>Derechos Reservados &copy; 2024</p>
+      <a href="https://facebook.com"><img src="facebook.png" alt="Facebook" class="icono"></a>
+      <a href="https://twitter.com"><img src="twitter.png" alt="Twitter" class="icono"></a>
+      <a href="https://instagram.com"><img src="instagram.png" alt="Instagram" class="icono"></a>
+      <a href="https://telegram.com"><img src="telegram.png" alt="telegram" class="icono"></a>
+      <a href="https://whatsapp.com"><img src="whatsapp.png" alt="whatsapp" class="icono"></a>
+  </footer>   
+  </body>
+</html>

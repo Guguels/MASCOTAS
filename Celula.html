@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingreso con Cédula de Identidad</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+    }
+    
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      position: relative; 
+    }
+    
+    h1 {
+      margin-bottom: 20px;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    label {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+    
+    button[type="submit"] {
+      background-color: #008cba;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #007bff;
+    }
+
+    footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #000;
+        }
+        .icono {
+    width: 20px; 
+    height: auto; 
+    margin: 0 5px; 
+}
+    
+    .logo {
+      position: absolute;
+      top: -180px; 
+      left: calc(50% - 70px); 
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="logo.jpg" class="logo" width="150px" height="150px">
+    <h3><p style="color: rgb(0, 0, 205);">Ingreso con Cédula de Identidad</p></h3>
+    <form method="post">
+      <label for="username"></label>
+      <input type="text" id="username" name="username" placeholder="RUN">
+      <label for="password"></label>
+      <input type="password" id="password" name="password" placeholder="N° de Serie/N° Documento">
+      <button type="submit">Ingresar</button>
+    </form>
+  </div>
+  <footer>
+    <p>Derechos Reservados &copy; 2024</p>
+    <a href="https://facebook.com"><img src="facebook.png" alt="Facebook" class="icono"></a>
+    <a href="https://twitter.com"><img src="twitter.png" alt="Twitter" class="icono"></a>
+    <a href="https://instagram.com"><img src="instagram.png" alt="Instagram" class="icono"></a>
+    <a href="https://telegram.com"><img src="telegram.png" alt="telegram" class="icono"></a>
+    <a href="https://whatsapp.com"><img src="whatsapp.png" alt="whatsapp" class="icono"></a>
+</footer>  
+</body>
+</html>
